@@ -17,4 +17,5 @@ export interface FreighterState {
   address: string | null;
   connected: boolean;
   network: string | null;
+  error?: string | null;
 }
